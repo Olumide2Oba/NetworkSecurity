@@ -1,0 +1,11 @@
+[2025-05-30 17:50:44,359] 20 root - INFO - Initiate the data Ingestion
+[2025-05-30 17:51:05,772] 65 root - INFO - Performed train test split on the dataframe
+[2025-05-30 17:51:05,772] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-05-30 17:51:05,778] 75 root - INFO - Exporting train and test file path.
+[2025-05-30 17:51:05,959] 84 root - INFO - Exported train and test file path.
+[2025-05-30 17:51:05,971] 22 root - INFO - Data Initiation Completed
+[2025-05-30 17:51:05,974] 26 root - INFO - Initiate the data validation
+[2025-05-30 17:51:06,191] 32 root - INFO - Required number of columns:2
+[2025-05-30 17:51:06,191] 33 root - INFO - Data frame has columns:31
+[2025-05-30 17:51:06,191] 32 root - INFO - Required number of columns:2
+[2025-05-30 17:51:06,191] 33 root - INFO - Data frame has columns:31

@@ -12,7 +12,7 @@ class TrainingPipelineConfig:
         self.pipeline_name=training_pipeline.PIPELINE_NAME
         self.artifact_name=training_pipeline.ARTIFACT_DIR
         self.artifact_dir=os.path.join(self.artifact_name,timestamp)
-        ##self.model_dir=os.path.join("final_model")
+        self.model_dir=os.path.join("final_model")
         self.timestamp: str=timestamp
 
 
@@ -71,4 +71,4 @@ class ModelTrainerConfig:
             training_pipeline.MODEL_FILE_NAME
         )
         self.expected_accuracy: float = training_pipeline.MODEL_TRAINER_EXPECTED_SCORE
-        self.overfitting_underfitting_threshold = training_pipeline.MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD
+        self.overfitting_underfitting_threshold = training_pipeline.MODEL_TRAINER_TRAINED_OVER_FITTING_UNDER_FITTING_THRESHOLD
