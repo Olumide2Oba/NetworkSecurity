@@ -1,0 +1,6 @@
+[2025-06-10 19:21:37,313] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-10 19:21:37,329] 107 dagshub - INFO - Accessing as Olumide2Oba
+[2025-06-10 19:21:38,267] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Olumide2Oba/NetworkSecurity "HTTP/1.1 200 OK"
+[2025-06-10 19:21:39,350] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-10 19:21:39,350] 107 dagshub - INFO - Initialized MLflow to track repo "Olumide2Oba/NetworkSecurity"
+[2025-06-10 19:21:39,350] 107 dagshub - INFO - Repository Olumide2Oba/NetworkSecurity initialized!

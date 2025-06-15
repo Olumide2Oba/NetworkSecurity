@@ -1,0 +1,29 @@
+[2025-06-15 12:10:50,268] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-15 12:10:50,283] 107 dagshub - INFO - Accessing as Olumide2Oba
+[2025-06-15 12:10:51,459] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Olumide2Oba/NetworkSecurity "HTTP/1.1 200 OK"
+[2025-06-15 12:10:52,518] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-15 12:10:52,525] 107 dagshub - INFO - Initialized MLflow to track repo "Olumide2Oba/NetworkSecurity"
+[2025-06-15 12:10:52,525] 107 dagshub - INFO - Repository Olumide2Oba/NetworkSecurity initialized!
+[2025-06-15 12:10:52,525] 19 root - INFO - Initiate the data Ingestion
+[2025-06-15 12:11:03,249] 65 root - INFO - Performed train test split on the dataframe
+[2025-06-15 12:11:03,249] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-06-15 12:11:03,249] 75 root - INFO - Exporting train and test file path.
+[2025-06-15 12:11:03,503] 84 root - INFO - Exported train and test file path.
+[2025-06-15 12:11:03,505] 21 root - INFO - Data Initiation Completed
+[2025-06-15 12:11:03,513] 25 root - INFO - Initiate the data validation
+[2025-06-15 12:11:03,675] 32 root - INFO - Required number of columns:2
+[2025-06-15 12:11:03,675] 33 root - INFO - Data frame has columns:31
+[2025-06-15 12:11:03,675] 32 root - INFO - Required number of columns:2
+[2025-06-15 12:11:03,675] 33 root - INFO - Data frame has columns:31
+[2025-06-15 12:11:04,146] 27 root - INFO - data validation completed
+[2025-06-15 12:11:04,146] 30 root - INFO - Data Transformation Started
+[2025-06-15 12:11:04,146] 62 root - INFO - Entered initiate_data_tranformation method of DataTransformation class
+[2025-06-15 12:11:04,146] 65 root - INFO - Starting data transformation
+[2025-06-15 12:11:04,271] 49 root - INFO - Entered get_transformer_object method of Transformation class
+[2025-06-15 12:11:04,271] 53 root - INFO - Initialize KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-06-15 12:11:04,303] 50 root - INFO - Enter the save_object method of main utils
+[2025-06-15 12:11:04,303] 54 root - INFO - Exited the save_object method of mainutils class
+[2025-06-15 12:11:04,303] 50 root - INFO - Enter the save_object method of main utils
+[2025-06-15 12:11:04,303] 54 root - INFO - Exited the save_object method of mainutils class
+[2025-06-15 12:11:04,318] 34 root - INFO - Data Transformation Completed
+[2025-06-15 12:11:04,318] 36 root - INFO - Model Training started
